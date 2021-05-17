@@ -1,0 +1,98 @@
+/* 
+CSS FILE for Pansy Potter - Dark Theme
+Developed by John Green
+18-11-2020
+*/
+
+/*
+Below is the CSS File for the Dark Mode
+*/
+
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+	background-color:black;
+	color:white;
+
+	
+}
+
+p {
+	text-align: justify;
+	color: white
+}
+
+
+header{
+	height: 80px;
+	display: flex;
+	align-items: center;
+}
+
+nav li{
+	display: inline;
+}
+
+nav li a {
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	padding: 20px;
+}
+
+nav li a:hover{
+	color: black;
+	background-color: white;
+}
+
+h1{
+	font-family: "Brush Script MT", cursive;
+	width: 100%;
+	color: black;
+	background-color: white;
+	text-align: center;
+}
+
+footer {
+	background-color: gray;
+	text-align: center;
+    padding: 20px;
+	margin-top: 10px;
+
+}
+
+
+footer a {
+	
+	color: black;
+	text-decoration: none;
+	padding: 10px;
+}
+
+input [type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid green;
+  color: black;
+  outline: none;
+  transition: width 0.4s
+  border-radius: 8px;
+}
+h2{
+	font-family: "Brush Script MT", cursive;
+	width: 100%;
+	color: black;
+	background-color: white
+}
+p {
+	text-align: justify;
+	color: white
+}
+h3{
+	font-family: "Brush Script MT", cursive;
+	width: 100%;
+	color: black;
+	background-color: white
+}
